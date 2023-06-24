@@ -99,7 +99,7 @@ body {
 }
 
 .col img {
-    width: 40px;
+    width: 50px;
     margin-right: 10px;
 }
 
@@ -127,8 +127,7 @@ body {
     bottom: 20px;
     width: 100%;
     /* background-color: red; */
-    color: white;
+    color: black;
     text-align: center;
-    
 
 }
