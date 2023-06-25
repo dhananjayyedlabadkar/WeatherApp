@@ -104,3 +104,20 @@ body {
 	}
 
 }
+
+ 
+
+  .socialtop {
+    float: right;
+    margin-right: 5%;
+  }
+
+  .top-social a {
+    padding: 13px;
+    color: #fff;
+  }
+  
+  .top-social {
+    padding: 0px 15px;
+  }
+  
