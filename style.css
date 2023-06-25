@@ -7,7 +7,7 @@
 }
 
 body {
-    background: rgb(253, 251, 255);
+    background: rgb(0, 0, 0);
     /* background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%); */
 
 }
@@ -26,7 +26,7 @@ body {
     color: black;
     border: 2px solid black;
     outline-style: solid;
-    outline-color: rgb(5, 5, 5);
+    outline-color: aqua;
     margin: 60px auto 0;
     border-radius: 20px;
     padding: 40px 35px;
@@ -39,6 +39,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .search input {
@@ -49,6 +50,7 @@ body {
     padding: 10px 25px;
     height: 60px;
     border-radius: 30px;
+    border: 2px solid black;
     flex: 1;
     margin-right: 16px;
     font-size: 18px;
@@ -59,6 +61,7 @@ body {
     outline: 0;
     background: #ebfffc;
     border-radius: 50%;
+    border: 2px solid black;
     width: 60px;
     height: 60px;
     cursor: pointer;
@@ -128,7 +131,7 @@ body {
     bottom: 20px;
     width: 100%;
     /* background-color: red; */
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: center;
 
 }
