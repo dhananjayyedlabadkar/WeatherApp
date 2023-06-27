@@ -73,9 +73,23 @@ body {
 	opacity: 1;
 }
 
+.socialtop {
+  float: right;
+  margin-right: 5%;
+}
+
+.top-social a {
+  padding: 13px;
+  color: #fff;
+}
+
+.top-social {
+  padding: 0px 5px ;
+}
+
 /* Making the header responsive */
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 350px) {
 
 	.header-fixed {
 		padding: 20px 0;
@@ -84,9 +98,9 @@ body {
 
 	.header-fixed .header-limiter h1 {
 		float: none;
-		margin: -8px 0 10px;
+		margin: -8px 0 px;
 		text-align: center;
-		font-size: 24px;
+		/* font-size: 24px; */
 		line-height: 1;
 	}
 
@@ -103,21 +117,16 @@ body {
 		display: none;
 	}
 
+	.socialtop {
+		float: none;
+		margin: -8px 0 10px;
+		text-align: center;
+		/* font-size: 24px; */
+		line-height: 1;
+	  }
+
 }
 
  
 
-  .socialtop {
-    float: right;
-    margin-right: 5%;
-  }
 
-  .top-social a {
-    padding: 13px;
-    color: #fff;
-  }
-  
-  .top-social {
-    padding: 0px 15px;
-  }
-  
