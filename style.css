@@ -8,7 +8,7 @@
 
 body {
     background: rgb(0, 0, 0);
-    height: 800px;
+    height: 850px;
     /* background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%); */
 
 }
@@ -44,6 +44,7 @@ body {
 }
 
 .search input {
+    display: flex;
     border: 0;
     outline: 0;
     background: #ebfffc;
@@ -135,4 +136,18 @@ body {
     color: rgb(255, 255, 255);
     text-align: center;
 
+}
+
+@media all and (max-width: 600px) {
+
+
+    .card {
+        padding: 40px 15px;
+    }
+
+    .search input{
+        margin-right: 16px;
+        padding: 10px 10px;
+        font-size: 15px;
+    }
 }

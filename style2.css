@@ -89,7 +89,7 @@ body {
 
 /* Making the header responsive */
 
-@media all and (max-width: 350px) {
+@media all and (max-width: 600px) {
 
 	.header-fixed {
 		padding: 20px 0;
@@ -98,7 +98,7 @@ body {
 
 	.header-fixed .header-limiter h1 {
 		float: none;
-		margin: -8px 0 px;
+		margin: -8px 0 25px;
 		text-align: center;
 		/* font-size: 24px; */
 		line-height: 1;
@@ -124,6 +124,13 @@ body {
 		/* font-size: 24px; */
 		line-height: 1;
 	  }
+
+	  .top-social a img {
+		width: 35px;
+		height: 35px;
+	}
+
+	  
 
 }
 
