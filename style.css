@@ -127,16 +127,14 @@ body {
     display: none;
 }
 
-.footer{
+.footer {
     position: fixed;
-    left: 0;
-    bottom: 20px;
+    bottom: 0;
     width: 100%;
-    /* background-color: red; */
-    color: rgb(255, 255, 255);
+    height: 60px;   /* Height of the footer */
+    color: white;
     text-align: center;
-
-}
+ }
 
 @media all and (max-width: 600px) {
 
